@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
 
             <div class='ms-2'>
-                <button id="btnChange" class="btn btn-warning fw-bold border-black p-3">CHANGE CART</button>
+                <button id="btnChange" class="btn btn-warning fw-bold border-black p-3">CHANGE</button>
             </div>
     `;
 
