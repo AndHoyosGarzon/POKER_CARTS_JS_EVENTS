@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div id="rightIcon" class="right icon"><i class="bi bi-suit-diamond-fill"></i></div>
             </div>
 
-            <div>
+            <div class='ms-2'>
                 <button id="btnChange" class="btn btn-warning fw-bold border-black p-3">CHANGE CART</button>
             </div>
     `;
