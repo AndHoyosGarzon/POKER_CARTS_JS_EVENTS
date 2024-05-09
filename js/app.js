@@ -18,16 +18,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const idBtnChange = document.getElementById('btnChange');
 
     function randomCard(){       
-    let idLeftIcon = document.getElementById('leftIcon');
-    let idNumberIcon = document.getElementById('numberIcon');
-    let idRightIcon = document.getElementById('rightIcon');
-
-    let numRandom = Math.floor(Math.random() * simbolCard.length);
-    let iconRandom = Math.floor(Math.random() * numStrCard.length)
-    idLeftIcon.innerHTML = simbolCard[numRandom];
-    idNumberIcon.innerHTML = numStrCard[iconRandom];
-    idRightIcon.innerHTML = simbolCard[numRandom];
-    
+        let idLeftIcon = document.getElementById('leftIcon');
+        let idNumberIcon = document.getElementById('numberIcon');
+        let idRightIcon = document.getElementById('rightIcon');
+        
+        let numRandom = Math.floor(Math.random() * simbolCard.length);
+        let iconRandom = Math.floor(Math.random() * numStrCard.length)
+        
+        idLeftIcon.innerHTML = simbolCard[numRandom];
+        idNumberIcon.innerHTML = numStrCard[iconRandom];
+        idRightIcon.innerHTML = simbolCard[numRandom];
     }
 
     //event click
