@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const idContainer = document.getElementById('container');
     idContainer.innerHTML = `
             <div class="poker">
-                <div id="leftIcon" class="left icon"><i class="bi bi-suit-diamond-fill"></i></div>
+                <div id="leftIcon" class="left icon"><i class="bi bi-suit-diamond-fill text-danger"></i></div>
                 <div id="numberIcon" class="number icon">3</div>
-                <div id="rightIcon" class="right icon"><i class="bi bi-suit-diamond-fill"></i></div>
+                <div id="rightIcon" class="right icon"><i class="bi bi-suit-diamond-fill text-danger"></i></div>
             </div>
 
             <div class='ms-2'>
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
     `;
 
-    const simbolCard = ['<i class="bi bi-suit-diamond-fill"></i>', '<i class="bi text-danger bi-suit-heart-fill"></i>', '<i class="bi bi-suit-spade-fill"></i>', '<i class="bi bi-suit-club-fill "></i>'];
+    const simbolCard = ['<i class="bi bi-suit-diamond-fill text-danger"></i>', '<i class="bi bi-suit-heart-fill text-danger "></i>', '<i class="bi bi-suit-spade-fill"></i>', '<i class="bi bi-suit-club-fill "></i>'];
     const numStrCard = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K'];
     const idBtnChange = document.getElementById('btnChange');
 
